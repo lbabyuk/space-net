@@ -1,5 +1,5 @@
 * {
-  font-family:'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -28,7 +28,7 @@
   width: 100%;
   max-width: 200px;
   background-color: #63a4ff;
-  background-image: linear-gradient(315deg, #1d7ad1 0%, #0fc9df  74%);
+  background-image: linear-gradient(315deg, #1d7ad1 0%, #0fc9df 74%);
   border: transparent;
   border-radius: 3px;
   color: #fff;
@@ -39,15 +39,15 @@
 }
 
 .underline {
-  text-decoration: none; 
-  position: relative; 
-}   
+  text-decoration: none;
+  position: relative;
+}
 
 .underline:after {
   position: absolute;
-  content: '';
+  content: "";
   height: 3px;
-  bottom: -4px; 
+  bottom: -4px;
   left: 0;
   right: 0;
   width: 9%;
@@ -65,8 +65,8 @@
 }
 
 .underline-choose::after {
-    left: 50%;
-    right: 50%;
+  left: 50%;
+  right: 50%;
 }
 
 /* about */
@@ -79,8 +79,8 @@
 }
 
 .button__hover:hover {
-    background-color: #1d7ad1;
-    color: #fff;
+  background-color: #1d7ad1;
+  color: #fff;
 }
 
 .about-gray {
@@ -106,207 +106,206 @@
 }
 
 #choose p {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 #services {
-    background-image: url(../img/bg/services.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff;
+  background-image: url(../img/bg/services.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
 }
 
 .services__text {
-    color: #fff;
-    font-size: 18px;
+  color: #fff;
+  font-size: 18px;
 }
 
 .underline-services::after {
-    left: 50%;
-    right: 50%;
-    background: #fff;
-    width: 15%;
+  left: 50%;
+  right: 50%;
+  background: #fff;
+  width: 15%;
 }
 
 .bg__services-home {
-    background-image: url(../img/bg/services-bg-1.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
+  background-image: url(../img/bg/services-bg-1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 
 .bg__services-hosting {
-    background-image: url(../img/bg/services-bg-2.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
+  background-image: url(../img/bg/services-bg-2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 
 .bg__services-wi-fi {
-    background-image: url(../img/bg/services-bg-3.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
+  background-image: url(../img/bg/services-bg-3.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 
 /* results */
 
 #results {
-    background-image: url(../img/bg/results-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../img/bg/results-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 .results__text {
-    font-weight: 400;
-    font-size: 20px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 /* request */
 
 #request {
-    background-image: url(../img/bg/request.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
+  background-image: url(../img/bg/request.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
 }
 
 .request__card {
-    background-color: transparent;
-    color: #fff;
+  background-color: transparent;
+  color: #fff;
 }
 
 .request__outline::after {
-    background:#fff;
-    left: 50%;
-    right: 50%;
-    width: 5%;
+  background: #fff;
+  left: 50%;
+  right: 50%;
+  width: 5%;
 }
 
-#navigation, 
-#project, 
-#team  {
-  background: url('../img/bg/projects-bg.svg');
+#navigation,
+#project,
+#team {
+  background: url("../img/bg/projects-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-  #pricing {
-    background: url('../img/bg/pricing-bg.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .container__project {
-    width: 100%;
-    display: flex;
-    padding: 0 20px;
-  }
+#pricing {
+  background: url("../img/bg/pricing-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  /* countdown */
-  
-  #countdown {
-    background-image: url(../img/bg/countdown.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .underline-countdown::after {
-    background-color: #fff;
-    left: 50%;
-    right: 50%;
-    width: 6%;
-  }
+.container__project {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+}
+
+/* countdown */
+
+#countdown {
+  background-image: url(../img/bg/countdown.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.underline-countdown::after {
+  background-color: #fff;
+  left: 50%;
+  right: 50%;
+  width: 6%;
+}
 /* form */
 
-  #formToSwitch {
-    background-image: url(../img/bg/switch-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 90vh;
-    width: 100%;
-  }
+#formToSwitch {
+  background-image: url(../img/bg/switch-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  width: 100%;
+}
 
-  .formToSwitch__input__bg {
-    background-color: rgba(40, 49, 57, 0.6);
-    color: #e8ecef;
-  }
+.formToSwitch__input__bg {
+  background-color: rgba(40, 49, 57, 0.6);
+  color: #e8ecef;
+}
 
-  .formToSwitch__card-bg {
-    background-color: rgba(40, 49, 57, 0.6);
-  }
+.formToSwitch__card-bg {
+  background-color: rgba(40, 49, 57, 0.6);
+}
 
-  .team {
-    position: relative;
-  }
+.team {
+  position: relative;
+}
 
-  .team__card {
-    background-color: hsla(0, 0%, 0%, 0.4);
-  }
+.team__card {
+  background-color: hsla(0, 0%, 0%, 0.4);
+}
 
-  .team img {
-    width: 100%;
-  }
+.team img {
+  width: 100%;
+}
 
-  #testimonials {
-    background-image: url(../img/bg/testimonials-bg.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+#testimonials {
+  background-image: url(../img/bg/testimonials-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-  .testimonials__image img {
-    width: 100%;
-  }
-  
-  .testimonials__card {
-    margin: 0 0.5em;
-    border: none;
-    border-radius: 0;
-  }
-  
-  .carousel-inner {
-    padding: 1em;
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
-    background-color: #e1e1e1;
-    width: 5vh;
-    height: 5vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+.testimonials__image img {
+  width: 100%;
+}
 
-  #faq {
-    background-image: url(../img/bg/faq-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+.testimonials__card {
+  margin: 0 0.5em;
+  border: none;
+  border-radius: 0;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#faq {
+  background-image: url(../img/bg/faq-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 .faq__flush-bg {
   background-color: rgba(40, 49, 57, 0.6);
   color: #fff;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 #faq button::after {
@@ -326,85 +325,79 @@
   justify-content: center;
 }
 
-
-
 @media (min-width: 768px) {
-    .signUp-input {
-        width: 50%;
-    }
+  .signUp-input {
+    width: 50%;
+  }
 
-    .testimonials__image img {
-      width: 100%;
-    }
+  .testimonials__image img {
+    width: 100%;
+  }
 
-    .testimonials__card p {
-      font-size: small;
-    }
-
-    .team__text p {
-      font-size: 14px;
-    }
-
-}
-
- @media (max-width: 576px) {
-
-    .result__outline::after {
-        left: 50%;
-        width: 15%;
-    }
-
-    .testimonials__image img {
-      width: 100%;
-    }
-
-    .slide h3 {
-      font-size: 12px;
-    }
-
-    .container__project {
-      width: 100%;
-      display: flex;
-      padding: 0 10px;
-    }
-
-    #formToSwitch {
-      height: 80vh;
-    }
-
-    .formToSwitch__card-body {
-      height: 60vh;
-    }
-
-    .formToSwitch__card-body {
-      justify-content: center;
-    }
-
-    #formToSwitch h2 {
-      font-size: 25px;
-    }
-
-    .form-group__button {
-      font-weight: 400;
-      font-size: 14px;
-    }
-
-    #team img {
-      background-color: rgba(40, 49, 57, 0.6);
-      opacity: .5;
-    }
-
-    .team__text h2 {
-      font-size: 22px;
-      padding: 10px;
-    }
-
-    input::placeholder {
-      font-size: 12px;
-    }
   .testimonials__card p {
     font-size: small;
   }
-  
+
+  .team__text p {
+    font-size: 14px;
+  }
 }
 
+@media (max-width: 576px) {
+  .result__outline::after {
+    left: 50%;
+    width: 15%;
+  }
+
+  .testimonials__image img {
+    width: 100%;
+  }
+
+  .slide h3 {
+    font-size: 12px;
+  }
+
+  .container__project {
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+  }
+
+  #formToSwitch {
+    height: 80vh;
+  }
+
+  .formToSwitch__card-body {
+    height: 60vh;
+  }
+
+  .formToSwitch__card-body {
+    justify-content: center;
+  }
+
+  #formToSwitch h2 {
+    font-size: 25px;
+  }
+
+  .form-group__button {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  #team img {
+    background-color: rgba(40, 49, 57, 0.6);
+    opacity: 0.5;
+  }
+
+  .team__text h2 {
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+  }
+  .testimonials__card p {
+    font-size: small;
+  }
+}
